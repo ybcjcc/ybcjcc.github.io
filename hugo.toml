@@ -1,7 +1,7 @@
 baseURL = "https://ybcjcc.github.io"
 languageCode = 'zh-cn'
 title = '战魂de小窝'
-theme = 'diary'
+theme = 'apple-style'
 
 # [sitemap]
 #   changefreq = "always"
