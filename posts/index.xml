@@ -1,339 +1,661 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Site – Posts</title><link>https://example.org/posts/</link><description>Recent content in Posts on My Site</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 12 Oct 2023 16:17:28 +0800</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Test2</title><link>https://example.org/posts/test2/</link><pubDate>Thu, 12 Oct 2023 16:17:28 +0800</pubDate><guid>https://example.org/posts/test2/</guid><description>
-&lt;h1>test2&lt;/h1>&lt;ul>
-&lt;li>12312&lt;/li>
-&lt;li>21312&lt;/li>
-&lt;li>2323&lt;/li>
-&lt;/ul></description></item><item><title>Test1</title><link>https://example.org/posts/test1/</link><pubDate>Thu, 12 Oct 2023 15:41:38 +0800</pubDate><guid>https://example.org/posts/test1/</guid><description>
-&lt;h1>21312&lt;/h1></description></item><item><title>hello</title><link>https://example.org/posts/ok/</link><pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate><guid>https://example.org/posts/ok/</guid><description>
-&lt;h1>欢迎使用 &lt;code>Arya&lt;/code> 在线 Markdown 编辑器&lt;/h1>&lt;p>&lt;a href="https://markdown.lovejade.cn/?ref=markdown.lovejade.cn" target="_blank" rel="noopener">Arya&lt;/a>，是一款基于 &lt;code>Vue&lt;/code>、&lt;code>Vditor&lt;/code>，为未来而构建的在线 Markdown 编辑器；轻量且强大：内置粘贴 HTML 自动转换为 Markdown，支持流程图、甘特图、时序图、任务列表，可导出携带样式的图片、PDF、微信公众号特制的 HTML 等等。&lt;/p>
-&lt;hr>
-&lt;h2>如何使用&lt;span class="hx:absolute hx:-mt-20" id="如何使用">&lt;/span>
-&lt;a href="#%e5%a6%82%e4%bd%95%e4%bd%bf%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>微注&lt;/strong>：清空目前这份默认文档，即处于可使用态。&lt;a href="https://markdown.lovejade.cn/?ref=markdown.lovejade.cn" target="_blank" rel="noopener">Arya&lt;/a> 另一大优点在于：编辑内容只会在您本地进行保存，不会上传您的数据至服务器，&lt;strong>绝不窥测用户个人隐私，可放心使用&lt;/strong>；Github 源码：&lt;a href="https://github.com/nicejade/markdown-online-editor" target="_blank" rel="noopener">markdown-online-editor&lt;/a>，部分功能仍在开发🚧，敬请期待。&lt;/p>
-&lt;p>默认为&lt;a href="https://hacpai.com/article/1577370404903?ref=github.com" target="_blank" rel="noopener">所见即所得&lt;/a>模式，可通过 &lt;code>⌘-⇧-M&lt;/code>（&lt;code>Ctrl-⇧-M&lt;/code>）进行切换；或通过以下方式：&lt;/p>
-&lt;ul>
-&lt;li>所见即所得：&lt;code>⌘-⌥-7&lt;/code>（&lt;code>Ctrl-alt-7&lt;/code>）；&lt;/li>
-&lt;li>即时渲染：&lt;code>⌘-⌥-8&lt;/code>（&lt;code>Ctrl-alt-8&lt;/code>）；&lt;/li>
-&lt;li>分屏渲染：&lt;code>⌘-⌥-9&lt;/code>（&lt;code>Ctrl-alt-9&lt;/code>）；&lt;/li>
-&lt;/ul>
-&lt;h3>PPT 预览&lt;span class="hx:absolute hx:-mt-20" id="ppt-预览">&lt;/span>
-&lt;a href="#ppt-%e9%a2%84%e8%a7%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>如果您用作 &lt;code>PPT&lt;/code> 预览（入口在&lt;code>设置&lt;/code>中），需要注意，这里暂还不能支持各种图表的渲染；您可以使用 &lt;code>---&lt;/code> 来定义水平方向上幻灯片，用 &lt;code>--&lt;/code> 来定义垂直幻灯片；更多设定可以参见 &lt;a href="https://github.com/hakimel/reveal.js#table-of-contents" target="_blank" rel="noopener">RevealJs 文档&lt;/a>。&lt;/p>
-&lt;hr>
-&lt;h2>什么是 Markdown&lt;span class="hx:absolute hx:-mt-20" id="什么是-markdown">&lt;/span>
-&lt;a href="#%e4%bb%80%e4%b9%88%e6%98%af-markdown" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;code>Markdown&lt;/code> 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号，以最小的输入代价，生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，&lt;strong>粗体&lt;/strong>、&lt;em>斜体&lt;/em> 或者&lt;a href="https://vue-cli3.lovejade.cn/explore/" target="_blank" rel="noopener">超文本链接&lt;/a>，更棒的是，它还可以：&lt;/p>
-&lt;hr>
-&lt;h3>1. 制作待办事宜 &lt;code>Todo&lt;/code> 列表&lt;span class="hx:absolute hx:-mt-20" id="1-制作待办事宜-todo-列表">&lt;/span>
-&lt;a href="#1-%e5%88%b6%e4%bd%9c%e5%be%85%e5%8a%9e%e4%ba%8b%e5%ae%9c-todo-%e5%88%97%e8%a1%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> 🎉 通常 &lt;code>Markdown&lt;/code> 解析器自带的基本功能；&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> 🍀 支持&lt;strong>流程图&lt;/strong>、&lt;strong>甘特图&lt;/strong>、&lt;strong>时序图&lt;/strong>、&lt;strong>任务列表&lt;/strong>；&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> 🏁 支持粘贴 HTML 自动转换为 Markdown；&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> 💃🏻 支持插入原生 Emoji、设置常用表情列表；&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> 🚑 支持编辑内容保存&lt;strong>本地存储&lt;/strong>，防止意外丢失；&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> 📝 支持&lt;strong>实时预览&lt;/strong>，主窗口大小拖拽，字符计数；&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> 🛠 支持常用快捷键(&lt;strong>Tab&lt;/strong>)，及代码块添加复制&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> ✨ 支持&lt;strong>导出&lt;/strong>携带样式的 PDF、PNG、JPEG 等；&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> ✨ 升级 Vditor，新增对 &lt;code>echarts&lt;/code> 图表的支持；&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> 👏 支持检查并格式化 Markdown 语法，使其专业；&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> 🦑 支持五线谱、及&lt;a href="https://github.com/b3log/vditor/issues/117?ref=hacpai.com#issuecomment-526986052" target="_blank" rel="noopener">部分站点、视频、音频解析&lt;/a>；&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> 🌟 增加对&lt;strong>所见即所得&lt;/strong>编辑模式的支持(&lt;code>⌘-⇧-M&lt;/code>)；&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>2. 书写一个质能守恒公式[^LaTeX]&lt;span class="hx:absolute hx:-mt-20" id="2-书写一个质能守恒公式latex">&lt;/span>
-&lt;a href="#2-%e4%b9%a6%e5%86%99%e4%b8%80%e4%b8%aa%e8%b4%a8%e8%83%bd%e5%ae%88%e6%81%92%e5%85%ac%e5%bc%8flatex" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>$$
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>战魂de小窝 – Posts</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on 战魂de小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 12 Oct 2023 16:17:28 +0800</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Test2</title>
+      <link>http://localhost:1313/posts/test2/</link>
+      <pubDate>Thu, 12 Oct 2023 16:17:28 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/test2/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;test2&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;12312&lt;/li&gt;
+&lt;li&gt;21312&lt;/li&gt;
+&lt;li&gt;2323&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Test1</title>
+      <link>http://localhost:1313/posts/test1/</link>
+      <pubDate>Thu, 12 Oct 2023 15:41:38 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/test1/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;21312&lt;/h1&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>hello</title>
+      <link>http://localhost:1313/posts/ok/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/ok/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;欢迎使用 &lt;code&gt;Arya&lt;/code&gt; 在线 Markdown 编辑器&lt;/h1&gt;&lt;p&gt;&lt;a href=&#34;https://markdown.lovejade.cn/?ref=markdown.lovejade.cn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arya&lt;/a&gt;，是一款基于 &lt;code&gt;Vue&lt;/code&gt;、&lt;code&gt;Vditor&lt;/code&gt;，为未来而构建的在线 Markdown 编辑器；轻量且强大：内置粘贴 HTML 自动转换为 Markdown，支持流程图、甘特图、时序图、任务列表，可导出携带样式的图片、PDF、微信公众号特制的 HTML 等等。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;如何使用&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;如何使用&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%a6%82%e4%bd%95%e4%bd%bf%e7%94%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;微注&lt;/strong&gt;：清空目前这份默认文档，即处于可使用态。&lt;a href=&#34;https://markdown.lovejade.cn/?ref=markdown.lovejade.cn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arya&lt;/a&gt; 另一大优点在于：编辑内容只会在您本地进行保存，不会上传您的数据至服务器，&lt;strong&gt;绝不窥测用户个人隐私，可放心使用&lt;/strong&gt;；Github 源码：&lt;a href=&#34;https://github.com/nicejade/markdown-online-editor&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;markdown-online-editor&lt;/a&gt;，部分功能仍在开发🚧，敬请期待。&lt;/p&gt;
+&lt;p&gt;默认为&lt;a href=&#34;https://hacpai.com/article/1577370404903?ref=github.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;所见即所得&lt;/a&gt;模式，可通过 &lt;code&gt;⌘-⇧-M&lt;/code&gt;（&lt;code&gt;Ctrl-⇧-M&lt;/code&gt;）进行切换；或通过以下方式：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;所见即所得：&lt;code&gt;⌘-⌥-7&lt;/code&gt;（&lt;code&gt;Ctrl-alt-7&lt;/code&gt;）；&lt;/li&gt;
+&lt;li&gt;即时渲染：&lt;code&gt;⌘-⌥-8&lt;/code&gt;（&lt;code&gt;Ctrl-alt-8&lt;/code&gt;）；&lt;/li&gt;
+&lt;li&gt;分屏渲染：&lt;code&gt;⌘-⌥-9&lt;/code&gt;（&lt;code&gt;Ctrl-alt-9&lt;/code&gt;）；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;PPT 预览&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;ppt-预览&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#ppt-%e9%a2%84%e8%a7%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;如果您用作 &lt;code&gt;PPT&lt;/code&gt; 预览（入口在&lt;code&gt;设置&lt;/code&gt;中），需要注意，这里暂还不能支持各种图表的渲染；您可以使用 &lt;code&gt;---&lt;/code&gt; 来定义水平方向上幻灯片，用 &lt;code&gt;--&lt;/code&gt; 来定义垂直幻灯片；更多设定可以参见 &lt;a href=&#34;https://github.com/hakimel/reveal.js#table-of-contents&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RevealJs 文档&lt;/a&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;什么是 Markdown&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;什么是-markdown&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bb%80%e4%b9%88%e6%98%af-markdown&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;code&gt;Markdown&lt;/code&gt; 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号，以最小的输入代价，生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，&lt;strong&gt;粗体&lt;/strong&gt;、&lt;em&gt;斜体&lt;/em&gt; 或者&lt;a href=&#34;https://vue-cli3.lovejade.cn/explore/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;超文本链接&lt;/a&gt;，更棒的是，它还可以：&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;1. 制作待办事宜 &lt;code&gt;Todo&lt;/code&gt; 列表&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-制作待办事宜-todo-列表&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-%e5%88%b6%e4%bd%9c%e5%be%85%e5%8a%9e%e4%ba%8b%e5%ae%9c-todo-%e5%88%97%e8%a1%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 🎉 通常 &lt;code&gt;Markdown&lt;/code&gt; 解析器自带的基本功能；&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 🍀 支持&lt;strong&gt;流程图&lt;/strong&gt;、&lt;strong&gt;甘特图&lt;/strong&gt;、&lt;strong&gt;时序图&lt;/strong&gt;、&lt;strong&gt;任务列表&lt;/strong&gt;；&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 🏁 支持粘贴 HTML 自动转换为 Markdown；&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 💃🏻 支持插入原生 Emoji、设置常用表情列表；&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 🚑 支持编辑内容保存&lt;strong&gt;本地存储&lt;/strong&gt;，防止意外丢失；&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 📝 支持&lt;strong&gt;实时预览&lt;/strong&gt;，主窗口大小拖拽，字符计数；&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 🛠 支持常用快捷键(&lt;strong&gt;Tab&lt;/strong&gt;)，及代码块添加复制&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; ✨ 支持&lt;strong&gt;导出&lt;/strong&gt;携带样式的 PDF、PNG、JPEG 等；&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; ✨ 升级 Vditor，新增对 &lt;code&gt;echarts&lt;/code&gt; 图表的支持；&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 👏 支持检查并格式化 Markdown 语法，使其专业；&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 🦑 支持五线谱、及&lt;a href=&#34;https://github.com/b3log/vditor/issues/117?ref=hacpai.com#issuecomment-526986052&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;部分站点、视频、音频解析&lt;/a&gt;；&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 🌟 增加对&lt;strong&gt;所见即所得&lt;/strong&gt;编辑模式的支持(&lt;code&gt;⌘-⇧-M&lt;/code&gt;)；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;2. 书写一个质能守恒公式[^LaTeX]&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-书写一个质能守恒公式latex&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-%e4%b9%a6%e5%86%99%e4%b8%80%e4%b8%aa%e8%b4%a8%e8%83%bd%e5%ae%88%e6%81%92%e5%85%ac%e5%bc%8flatex&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;$$
 E=mc^2
-$$&lt;/p>
-&lt;hr>
-&lt;h3>3. 高亮一段代码[^code]&lt;span class="hx:absolute hx:-mt-20" id="3-高亮一段代码code">&lt;/span>
-&lt;a href="#3-%e9%ab%98%e4%ba%ae%e4%b8%80%e6%ae%b5%e4%bb%a3%e7%a0%81code" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 给页面里所有的 DOM 元素添加一个 1px 的描边（outline）;
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">[].&lt;/span>&lt;span class="nx">forEach&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">call&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">$$&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;*&amp;#34;&lt;/span>&lt;span class="p">),&lt;/span>&lt;span class="kd">function&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">a&lt;/span>&lt;span class="p">){&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">a&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">style&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">outline&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;1px solid #&amp;#34;&lt;/span>&lt;span class="o">+&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">~~&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nb">Math&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">random&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="o">&amp;lt;&amp;lt;&lt;/span>&lt;span class="mi">24&lt;/span>&lt;span class="p">))).&lt;/span>&lt;span class="nx">toString&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">16&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">})&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
->
-&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;h3>4. 高效绘制&lt;a href="https://github.com/knsv/mermaid#flowchart" target="_blank" rel="noopener">流程图&lt;/a>&lt;span class="hx:absolute hx:-mt-20" id="4-高效绘制流程图">&lt;/span>
-&lt;a href="#4-%e9%ab%98%e6%95%88%e7%bb%98%e5%88%b6%e6%b5%81%e7%a8%8b%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;pre class="mermaid hx:mt-6">
-graph TD;
-A--&amp;gt;B;
-A--&amp;gt;C;
-B--&amp;gt;D;
-C--&amp;gt;D;
-&lt;/pre>&lt;h3>5. 高效绘制&lt;a href="https://github.com/knsv/mermaid#sequence-diagram" target="_blank" rel="noopener">序列图&lt;/a>&lt;span class="hx:absolute hx:-mt-20" id="5-高效绘制序列图">&lt;/span>
-&lt;a href="#5-%e9%ab%98%e6%95%88%e7%bb%98%e5%88%b6%e5%ba%8f%e5%88%97%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;pre class="mermaid hx:mt-6">
-sequenceDiagram
-participant Alice
-participant Bob
-Alice-&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-John-&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail...
-John--&amp;gt;Alice: Great!
-John-&amp;gt;Bob: How about you?
-Bob--&amp;gt;John: Jolly good!
-&lt;/pre>&lt;h3>6. 高效绘制&lt;a href="https://github.com/knsv/mermaid#gantt-diagram" target="_blank" rel="noopener">甘特图&lt;/a>&lt;span class="hx:absolute hx:-mt-20" id="6-高效绘制甘特图">&lt;/span>
-&lt;a href="#6-%e9%ab%98%e6%95%88%e7%bb%98%e5%88%b6%e7%94%98%e7%89%b9%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;blockquote>
-&lt;p>&lt;strong>甘特图&lt;/strong>内在思想简单。基本是一条线条图，横轴表示时间，纵轴表示活动（项目），线条表示在整个期间上计划和实际的活动完成情况。它直观地表明任务计划在什么时候进行，及实际进展与计划要求的对比。&lt;/p>
-&lt;/blockquote>
-&lt;pre class="mermaid hx:mt-6">
-gantt
-title 项目开发流程
-section 项目确定
-需求分析 :a1, 2019-06-22, 3d
-可行性报告 :after a1, 5d
-概念验证 : 5d
-section 项目实施
-概要设计 :2019-07-05 , 5d
-详细设计 :2019-07-08, 10d
-编码 :2019-07-15, 10d
-测试 :2019-07-22, 5d
-section 发布验收
-发布: 2d
-验收: 3d
-&lt;/pre>&lt;h3>7. 支持图表&lt;span class="hx:absolute hx:-mt-20" id="7-支持图表">&lt;/span>
-&lt;a href="#7-%e6%94%af%e6%8c%81%e5%9b%be%e8%a1%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>{
-&amp;#34;backgroundColor&amp;#34;: &amp;#34;#212121&amp;#34;,
-&amp;#34;title&amp;#34;: {
-&amp;#34;text&amp;#34;: &amp;#34;「晚晴幽草轩」访问来源&amp;#34;,
-&amp;#34;subtext&amp;#34;: &amp;#34;2019 年 6 月份&amp;#34;,
-&amp;#34;x&amp;#34;: &amp;#34;center&amp;#34;,
-&amp;#34;textStyle&amp;#34;: {
-&amp;#34;color&amp;#34;: &amp;#34;#f2f2f2&amp;#34;
-}
-},
-&amp;#34;tooltip&amp;#34;: {
-&amp;#34;trigger&amp;#34;: &amp;#34;item&amp;#34;,
-&amp;#34;formatter&amp;#34;: &amp;#34;{a} &amp;lt;br/&amp;gt;{b} : {c} ({d}%)&amp;#34;
-},
-&amp;#34;legend&amp;#34;: {
-&amp;#34;orient&amp;#34;: &amp;#34;vertical&amp;#34;,
-&amp;#34;left&amp;#34;: &amp;#34;left&amp;#34;,
-&amp;#34;data&amp;#34;: [
-&amp;#34;搜索引擎&amp;#34;,
-&amp;#34;直接访问&amp;#34;,
-&amp;#34;推荐&amp;#34;,
-&amp;#34;其他&amp;#34;,
-&amp;#34;社交平台&amp;#34;
-],
-&amp;#34;textStyle&amp;#34;: {
-&amp;#34;color&amp;#34;: &amp;#34;#f2f2f2&amp;#34;
-}
-},
-&amp;#34;series&amp;#34;: [
-{
-&amp;#34;name&amp;#34;: &amp;#34;访问来源&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;pie&amp;#34;,
-&amp;#34;radius&amp;#34;: &amp;#34;55%&amp;#34;,
-&amp;#34;center&amp;#34;: [
-&amp;#34;50%&amp;#34;,
-&amp;#34;60%&amp;#34;
-],
-&amp;#34;data&amp;#34;: [
-{
-&amp;#34;value&amp;#34;: 10440,
-&amp;#34;name&amp;#34;: &amp;#34;搜索引擎&amp;#34;,
-&amp;#34;itemStyle&amp;#34;: {
-&amp;#34;color&amp;#34;: &amp;#34;#ef4136&amp;#34;
-}
-},
-{
-&amp;#34;value&amp;#34;: 4770,
-&amp;#34;name&amp;#34;: &amp;#34;直接访问&amp;#34;
-},
-{
-&amp;#34;value&amp;#34;: 2430,
-&amp;#34;name&amp;#34;: &amp;#34;推荐&amp;#34;
-},
-{
-&amp;#34;value&amp;#34;: 342,
-&amp;#34;name&amp;#34;: &amp;#34;其他&amp;#34;
-},
-{
-&amp;#34;value&amp;#34;: 18,
-&amp;#34;name&amp;#34;: &amp;#34;社交平台&amp;#34;
-}
-],
-&amp;#34;itemStyle&amp;#34;: {
-&amp;#34;emphasis&amp;#34;: {
-&amp;#34;shadowBlur&amp;#34;: 10,
-&amp;#34;shadowOffsetX&amp;#34;: 0,
-&amp;#34;shadowColor&amp;#34;: &amp;#34;rgba(0, 0, 0, 0.5)&amp;#34;
-}
-}
-}
-]
-}&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
->
-&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;blockquote>
-&lt;p>&lt;strong>备注&lt;/strong>：上述 echarts 图表📈，其数据，须使用严格的 &lt;strong>JSON&lt;/strong> 格式；您可使用 JSON.stringify(data)，将对象传换从而得标准数据，即可正常使用。&lt;/p>
-&lt;/blockquote>
-&lt;h3>8. 绘制表格&lt;span class="hx:absolute hx:-mt-20" id="8-绘制表格">&lt;/span>
-&lt;a href="#8-%e7%bb%98%e5%88%b6%e8%a1%a8%e6%a0%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h3>9. 更详细语法说明&lt;span class="hx:absolute hx:-mt-20" id="9-更详细语法说明">&lt;/span>
-&lt;a href="#9-%e6%9b%b4%e8%af%a6%e7%bb%86%e8%af%ad%e6%b3%95%e8%af%b4%e6%98%8e" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>想要查看更详细的语法说明，可以参考这份 &lt;a href="https://github.com/nicejade/nice-front-end-tutorial/blob/master/tutorial/markdown-tutorial.md" target="_blank" rel="noopener">Markdown 资源列表&lt;/a>，涵盖入门至进阶教程，以及资源、平台等信息，能让您对她有更深的认知。&lt;/p>
-&lt;p>总而言之，不同于其它&lt;em>所见即所得&lt;/em>的编辑器：你只需使用键盘专注于书写文本内容，就可以生成印刷级的排版格式，省却在键盘和工具栏之间来回切换，调整内容和格式的麻烦。&lt;strong>Markdown 在流畅的书写和印刷级的阅读体验之间找到了平衡。&lt;/strong> 目前它已经成为世界上最大的技术分享网站 &lt;code>GitHub&lt;/code> 和 技术问答网站 &lt;code>StackOverFlow&lt;/code> 的御用书写格式，而且越发流行，正在在向各行业渗透。&lt;/p>
-&lt;p>最新更新于 2019.08.21&lt;/p></description></item><item><title>Markdown Syntax Guide</title><link>https://example.org/posts/markdown-syntax/</link><pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate><guid>https://example.org/posts/markdown-syntax/</guid><description>
-&lt;p>For a quick cheatsheet, check out &lt;a href="https://simplemde.com/markdown-guide" target="_blank" rel="noopener">https://simplemde.com/markdown-guide&lt;/a>.&lt;/p>
-&lt;hr>
-&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p>
-&lt;h2>Headings&lt;span class="hx:absolute hx:-mt-20" id="headings">&lt;/span>
-&lt;a href="#headings" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The following HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> elements represent six levels of section headings. &lt;code>&amp;lt;h1&amp;gt;&lt;/code> is the highest section level while &lt;code>&amp;lt;h6&amp;gt;&lt;/code> is the lowest.&lt;/p>
-&lt;h1>H1&lt;/h1>&lt;h2>H2&lt;span class="hx:absolute hx:-mt-20" id="h2">&lt;/span>
-&lt;a href="#h2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>H3&lt;span class="hx:absolute hx:-mt-20" id="h3">&lt;/span>
-&lt;a href="#h3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>H4&lt;span class="hx:absolute hx:-mt-20" id="h4">&lt;/span>
-&lt;a href="#h4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;h5>H5&lt;span class="hx:absolute hx:-mt-20" id="h5">&lt;/span>
-&lt;a href="#h5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;h6>H6&lt;span class="hx:absolute hx:-mt-20" id="h6">&lt;/span>
-&lt;a href="#h6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;h2>Paragraph&lt;span class="hx:absolute hx:-mt-20" id="paragraph">&lt;/span>
-&lt;a href="#paragraph" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p>
-&lt;p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p>
-&lt;h2>Blockquotes&lt;span class="hx:absolute hx:-mt-20" id="blockquotes">&lt;/span>
-&lt;a href="#blockquotes" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code>footer&lt;/code> or &lt;code>cite&lt;/code> element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p>
-&lt;h4>Blockquote without attribution&lt;span class="hx:absolute hx:-mt-20" id="blockquote-without-attribution">&lt;/span>
-&lt;a href="#blockquote-without-attribution" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;blockquote>
-&lt;p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-&lt;strong>Note&lt;/strong> that you can use &lt;em>Markdown syntax&lt;/em> within a blockquote.&lt;/p>
-&lt;/blockquote>
-&lt;h4>Blockquote with attribution&lt;span class="hx:absolute hx:-mt-20" id="blockquote-with-attribution">&lt;/span>
-&lt;a href="#blockquote-with-attribution" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;blockquote>
-&lt;p>Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;br>
-— &lt;cite>Rob Pike&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/cite>&lt;/p>
-&lt;/blockquote>
-&lt;h2>Tables&lt;span class="hx:absolute hx:-mt-20" id="tables">&lt;/span>
-&lt;a href="#tables" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Age&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Bob&lt;/td>
-&lt;td>27&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Alice&lt;/td>
-&lt;td>23&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h4>Inline Markdown within tables&lt;span class="hx:absolute hx:-mt-20" id="inline-markdown-within-tables">&lt;/span>
-&lt;a href="#inline-markdown-within-tables" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Italics&lt;/th>
-&lt;th>Bold&lt;/th>
-&lt;th>Code&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;em>italics&lt;/em>&lt;/td>
-&lt;td>&lt;strong>bold&lt;/strong>&lt;/td>
-&lt;td>&lt;code>code&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2>Code Blocks&lt;span class="hx:absolute hx:-mt-20" id="code-blocks">&lt;/span>
-&lt;a href="#code-blocks" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h4>Code block with backticks&lt;span class="hx:absolute hx:-mt-20" id="code-block-with-backticks">&lt;/span>
-&lt;a href="#code-block-with-backticks" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&amp;lt;!doctype html&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;utf-8&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Example HTML5 Document&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Test&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
->
-&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;h4>Code block indented with four spaces&lt;span class="hx:absolute hx:-mt-20" id="code-block-indented-with-four-spaces">&lt;/span>
-&lt;a href="#code-block-indented-with-four-spaces" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;pre>&lt;code>&amp;lt;!doctype html&amp;gt;
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;3. 高亮一段代码[^code]&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-高亮一段代码code&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-%e9%ab%98%e4%ba%ae%e4%b8%80%e6%ae%b5%e4%bb%a3%e7%a0%81code&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// 给页面里所有的 DOM 元素添加一个 1px 的描边（outline）;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[].&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;forEach&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;call&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;*&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;outline&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;1px solid #&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;~~&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;24&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;toString&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;})&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;4. 高效绘制&lt;a href=&#34;https://github.com/knsv/mermaid#flowchart&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;流程图&lt;/a&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4-高效绘制流程图&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-%e9%ab%98%e6%95%88%e7%bb%98%e5%88%b6%e6%b5%81%e7%a8%8b%e5%9b%be&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;pre class=&#34;mermaid hx:mt-6&#34;&gt;
+  graph TD;
+  A--&amp;gt;B;
+  A--&amp;gt;C;
+  B--&amp;gt;D;
+  C--&amp;gt;D;
+&lt;/pre&gt;&lt;h3&gt;5. 高效绘制&lt;a href=&#34;https://github.com/knsv/mermaid#sequence-diagram&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;序列图&lt;/a&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;5-高效绘制序列图&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-%e9%ab%98%e6%95%88%e7%bb%98%e5%88%b6%e5%ba%8f%e5%88%97%e5%9b%be&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;pre class=&#34;mermaid hx:mt-6&#34;&gt;
+  sequenceDiagram
+  participant Alice
+  participant Bob
+  Alice-&amp;gt;John: Hello John, how are you?
+  loop Healthcheck
+      John-&amp;gt;John: Fight against hypochondria
+  end
+  Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail...
+  John--&amp;gt;Alice: Great!
+  John-&amp;gt;Bob: How about you?
+  Bob--&amp;gt;John: Jolly good!
+&lt;/pre&gt;&lt;h3&gt;6. 高效绘制&lt;a href=&#34;https://github.com/knsv/mermaid#gantt-diagram&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;甘特图&lt;/a&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;6-高效绘制甘特图&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-%e9%ab%98%e6%95%88%e7%bb%98%e5%88%b6%e7%94%98%e7%89%b9%e5%9b%be&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;甘特图&lt;/strong&gt;内在思想简单。基本是一条线条图，横轴表示时间，纵轴表示活动（项目），线条表示在整个期间上计划和实际的活动完成情况。它直观地表明任务计划在什么时候进行，及实际进展与计划要求的对比。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre class=&#34;mermaid hx:mt-6&#34;&gt;
+  gantt
+  title 项目开发流程
+  section 项目确定
+    需求分析       :a1, 2019-06-22, 3d
+    可行性报告     :after a1, 5d
+    概念验证       : 5d
+  section 项目实施
+    概要设计      :2019-07-05  , 5d
+    详细设计      :2019-07-08, 10d
+    编码          :2019-07-15, 10d
+    测试          :2019-07-22, 5d
+  section 发布验收
+    发布: 2d
+    验收: 3d
+&lt;/pre&gt;&lt;h3&gt;7. 支持图表&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;7-支持图表&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#7-%e6%94%af%e6%8c%81%e5%9b%be%e8%a1%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;{
+  &amp;#34;backgroundColor&amp;#34;: &amp;#34;#212121&amp;#34;,
+  &amp;#34;title&amp;#34;: {
+    &amp;#34;text&amp;#34;: &amp;#34;「晚晴幽草轩」访问来源&amp;#34;,
+    &amp;#34;subtext&amp;#34;: &amp;#34;2019 年 6 月份&amp;#34;,
+    &amp;#34;x&amp;#34;: &amp;#34;center&amp;#34;,
+    &amp;#34;textStyle&amp;#34;: {
+      &amp;#34;color&amp;#34;: &amp;#34;#f2f2f2&amp;#34;
+    }
+  },
+  &amp;#34;tooltip&amp;#34;: {
+    &amp;#34;trigger&amp;#34;: &amp;#34;item&amp;#34;,
+    &amp;#34;formatter&amp;#34;: &amp;#34;{a} &amp;lt;br/&amp;gt;{b} : {c} ({d}%)&amp;#34;
+  },
+  &amp;#34;legend&amp;#34;: {
+    &amp;#34;orient&amp;#34;: &amp;#34;vertical&amp;#34;,
+    &amp;#34;left&amp;#34;: &amp;#34;left&amp;#34;,
+    &amp;#34;data&amp;#34;: [
+      &amp;#34;搜索引擎&amp;#34;,
+      &amp;#34;直接访问&amp;#34;,
+      &amp;#34;推荐&amp;#34;,
+      &amp;#34;其他&amp;#34;,
+      &amp;#34;社交平台&amp;#34;
+    ],
+    &amp;#34;textStyle&amp;#34;: {
+      &amp;#34;color&amp;#34;: &amp;#34;#f2f2f2&amp;#34;
+    }
+  },
+  &amp;#34;series&amp;#34;: [
+    {
+      &amp;#34;name&amp;#34;: &amp;#34;访问来源&amp;#34;,
+      &amp;#34;type&amp;#34;: &amp;#34;pie&amp;#34;,
+      &amp;#34;radius&amp;#34;: &amp;#34;55%&amp;#34;,
+      &amp;#34;center&amp;#34;: [
+        &amp;#34;50%&amp;#34;,
+        &amp;#34;60%&amp;#34;
+      ],
+      &amp;#34;data&amp;#34;: [
+        {
+          &amp;#34;value&amp;#34;: 10440,
+          &amp;#34;name&amp;#34;: &amp;#34;搜索引擎&amp;#34;,
+          &amp;#34;itemStyle&amp;#34;: {
+            &amp;#34;color&amp;#34;: &amp;#34;#ef4136&amp;#34;
+          }
+        },
+        {
+          &amp;#34;value&amp;#34;: 4770,
+          &amp;#34;name&amp;#34;: &amp;#34;直接访问&amp;#34;
+        },
+        {
+          &amp;#34;value&amp;#34;: 2430,
+          &amp;#34;name&amp;#34;: &amp;#34;推荐&amp;#34;
+        },
+        {
+          &amp;#34;value&amp;#34;: 342,
+          &amp;#34;name&amp;#34;: &amp;#34;其他&amp;#34;
+        },
+        {
+          &amp;#34;value&amp;#34;: 18,
+          &amp;#34;name&amp;#34;: &amp;#34;社交平台&amp;#34;
+        }
+      ],
+      &amp;#34;itemStyle&amp;#34;: {
+        &amp;#34;emphasis&amp;#34;: {
+          &amp;#34;shadowBlur&amp;#34;: 10,
+          &amp;#34;shadowOffsetX&amp;#34;: 0,
+          &amp;#34;shadowColor&amp;#34;: &amp;#34;rgba(0, 0, 0, 0.5)&amp;#34;
+        }
+      }
+    }
+  ]
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;备注&lt;/strong&gt;：上述 echarts 图表📈，其数据，须使用严格的 &lt;strong&gt;JSON&lt;/strong&gt; 格式；您可使用 JSON.stringify(data)，将对象传换从而得标准数据，即可正常使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;8. 绘制表格&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;8-绘制表格&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#8-%e7%bb%98%e5%88%b6%e8%a1%a8%e6%a0%bc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;9. 更详细语法说明&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;9-更详细语法说明&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#9-%e6%9b%b4%e8%af%a6%e7%bb%86%e8%af%ad%e6%b3%95%e8%af%b4%e6%98%8e&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;想要查看更详细的语法说明，可以参考这份 &lt;a href=&#34;https://github.com/nicejade/nice-front-end-tutorial/blob/master/tutorial/markdown-tutorial.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown 资源列表&lt;/a&gt;，涵盖入门至进阶教程，以及资源、平台等信息，能让您对她有更深的认知。&lt;/p&gt;
+&lt;p&gt;总而言之，不同于其它&lt;em&gt;所见即所得&lt;/em&gt;的编辑器：你只需使用键盘专注于书写文本内容，就可以生成印刷级的排版格式，省却在键盘和工具栏之间来回切换，调整内容和格式的麻烦。&lt;strong&gt;Markdown 在流畅的书写和印刷级的阅读体验之间找到了平衡。&lt;/strong&gt; 目前它已经成为世界上最大的技术分享网站 &lt;code&gt;GitHub&lt;/code&gt; 和 技术问答网站 &lt;code&gt;StackOverFlow&lt;/code&gt; 的御用书写格式，而且越发流行，正在在向各行业渗透。&lt;/p&gt;
+&lt;p&gt;最新更新于 2019.08.21&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>hello2</title>
+      <link>http://localhost:1313/posts/sasa/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/sasa/</guid>
+      <description>
+        
+        
+        &lt;h3&gt;1. 面试问题(Java 后端)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-面试问题java-后端&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-%e9%9d%a2%e8%af%95%e9%97%ae%e9%a2%98java-%e5%90%8e%e7%ab%af&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;猿辅导&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;猿辅导&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%8c%bf%e8%be%85%e5%af%bc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt; 1.八皇后问题
+ 2.求二叉树的最长距离(任意两个节点的路径 中最长的)
+ 3.lru 算法的实现
+ 4.设计一个数据结构 满足 put 和 getMedium(中位数)两个方法.
+    (时间复杂度分析, getMedium 在常数,n,log n 时间复杂度返回如何实现)
+ 5.rabbitmq 脑裂问题,rabbitmq 延迟队列实现, rabbitmq高可用策略
+    (因为项目中用到了 rabbitmq 和他们技术选型出现了重叠,问了这个问题)
+ 6. 死磕项目细节其中包括:
+    设计方案时有没有比较多种方案,为什么选这个方案?
+    你个人最有成就感,最有挑战性的 工作是哪一个?
+
+ 思考:
+ 1. 猿辅导问的算法题属于 leetcode easy, medium 级别的,基本不会太难
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;旷视(Python)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;旷视python&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%97%b7%e8%a7%86python&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;   1. Python 如何实现多线程/多进程编程
+   2. Python GIL 锁是什么?为什么会出现 GIL
+   3. python 协程有么有用过? 有哪些常见的协程库,介绍一下
+   4. python 装饰器如何实现,原理,常见使用场景?
+   5. python 一堆我没听见的库,有没有用过.(我没记下来)
+   6. 给你一个 Linux 路径,求其最简化的路径,例如(/a/b/.. -&amp;gt; /a,  a/b/./. -&amp;gt; a/b等)
+   7. 给你一台 16 核, 32G 的机器, 无限空间大的分布式存储. 对1 个 16P 大小的文本文件进行排序.
+       文件每行一条记录, 空格分割例如
+       key1
+       key2
+   8. 介绍一下什么是外部排序
+
+  思考:
+  1. 旷视的这位面试官 和我死磕 python. 一点项目经历没问.
+  2. 除了 leetcode 也要多看看高并发,大数据相关的 系统设计题.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;去哪儿(Java)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;去哪儿java&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%8e%bb%e5%93%aa%e5%84%bfjava&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;  1. 为什么使用 MQ, MQ 如何选型, 消息可靠性如何保证, 如何保证幂等
+  2. 用过 dubbo吗? 设计一个 rpc 框架.
+  3. 介绍一下 https
+  4. 数据库线程池, http 连接池有没有深入看过源码?介绍一下.(项目里用得到了 http client)
+  5. 给你十亿条数据,如何最快的添加到数据库中
+  6. 分布式锁的技术选型, 实现原理, 优劣势比较, zookeeper 的一致性协议原理
+  7. java 线程同步的几种方式, countdownlatch 和 栅栏的区别
+  8. synchronized和 aqs 如何实现可重入锁
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;陌陌&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;陌陌&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e9%99%8c%e9%99%8c&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;  1.分布式锁的实现方案比较,为什么选择 zookeeper, zookeeper 一致性协议原理
+  2.一致性 Hash 原理,实现,项目中是如何使用一致性 Hash 的,引入了多少虚拟节点?
+  3.java synchronized和 AQS的原理,区别
+  4. redis 有序列表
+  5. redis 高可用架构是什么? codis 和 redis cluster 分片的区别
+  6. 两个线程如何交替打印 0到99
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;头条(Go)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;头条go&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%a4%b4%e6%9d%a1go&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;  1. 给你一个 Linux 路径,求其最简化的路径,例如(/a/b/.. -&amp;gt; /a,  a/b/./. -&amp;gt; a/b等) 和旷视问重了
+  2. top-k
+  3. 实现前缀树
+  4. 实现python装饰器.方法实现,和类实现, 带参数和不带参数.以及对装饰器的思考
+  5. 如何实现对 多机房,多机架 之前的网络健康情况监控.
+  6. 如何理解进程上下文切换, 进程地址空间,为什么需要进程地址空间, 系统调用实现原理, top 命令介绍.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;阿里&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;阿里&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e9%98%bf%e9%87%8c&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;  1. mq 消息可靠性,幂等如何保证
+  2. 分布式锁的实现方案比较,为什么选择 zookeeper, zookeeper 一致性协议原理
+  3. 线程池参数,阻塞队列实现.
+  4. 一致性 Hash解决什么问题, 如何实现? 虚拟节点的作用?
+  5. Java 锁的实现方式, 比较? AQS实现原理?公平非公平实现原理?
+  6. CAS 实现原理
+  7. volatile 实现原理, 单例模式
+  8. java 内存模型, gc 调优的经历. cms gc 的几个阶段, 为什么会出现 stop the world. 常见可优化参数有哪些.
+    为什么需要优化 gc, gc 会导致什么问题.
+  9. mysql 事务隔离级别. mvcc 实现原理
+  10. mysql 索引原理. 为什么使用 B+树. 及何时无法使用索引?
+  11. mysql 架构, 引擎层和 server层 各自负责什么.
+  12. hashmap 及 concurrenthashmap 实现原理
+  13. Spring aop原理，如何定义新的spring xml 标签
+  14. 合并两个有序链表
+  15. 如何设计一个 大型活动的安保系统(开放题)
+  16. 你平常都在哪些论坛上学习?
+  17. 如何学习一门未知的技术?
+
+  思考:
+  阿里面试官 虽然不面算法,但是面试考察点全方位打击,从浅入深,揪住不放,直到你不会为止.
+  是收获最多的面试,也是感受到自己差距的面试.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;快手&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;快手&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%bf%ab%e6%89%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;  1. 线程池实现原理,如何调优
+  2. 如何实现一个延迟队列
+  3. mysql 索引
+  4. mysql 事务隔离级别
+  5. java 锁和常见线程同步方式
+  6. zookeeper 分布式实现方式及优劣,如何避免 多个客户端同时获取到锁?
+  7. 求二叉树两个节点的共同节点
+  8. 求二叉树的深度(非递归)
+  9. java 集合常见类及原理
+  10. tcc 原理
+  11. netty 的请求处理流程.线程模型
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;美团&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;美团&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%be%8e%e5%9b%a2&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;  1. HashMap 的实现原理?扩容原理? 为什么 jdk 8修改了冲突链表的插入位置
+  2. mysql 的高可用架构.主从同步过程.
+  3. http 和rpc 调用的区别
+  4. redis 如何用单线程支撑高并发, redis 的常见使用场景
+  5. mq 如何选型. 为什么用 mq
+  6. 一致性 Hash 原理
+  7. 美团外卖的支付 ,要求在 15 分钟内取消未支付的订单. 如何实现
+  8. 打印 * 星号的等腰三角形
+  9. 项目的全链路架构, 有没有单点问题,解决单点问题有哪些常见的方案.
+  10. 项目中有哪些可以衡量工作产出的指标.
+  11. 说一下你负责的 最复杂,参与人数最多,周期对长.的项目是如何推进的
+  12. 你认为自己的优势,劣势在哪里.
+  13. 你对未来的职业规划,你期望的工作内容,方向是什么?
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;腾讯(Java)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;腾讯java&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%85%be%e8%ae%afjava&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;   1.如何在物理机和容器中获取 cpu 核数,如何设置线程数, 如何主动触发 GC
+   2.一致性 Hash, Hash 的作用, 为什么叫一致性 Hash,一致性体现在哪里.
+      HashMap中还可以使用什么方式处理 Hash 冲突
+   3.线程池参数,优化,原理
+   4.实现一个功能:
+     cat /usr/local/*.log|grep tencent
+     1. 并发 IO
+     2. 30 s 内必须返回结果
+   5. 如何理解 Future模式?java 的实现原理
+   6. Java 阻塞队列实现原理
+   7.  java 锁 volatile 实现原理
+   8. mysql 索引原理,事务隔离级别, mysql 死锁的场景会有哪些, 内部如何检测死锁的?
+   9. java 线程同步共有哪几种工具?
+   10. 你认为 java 设计得比较优秀的地方有哪些?
+   11. 如何理解面向对象设计,能用你看过得开源代码或者实际项目介绍一下吗?
+   12. java 类加载器的原理及实际使用场景.
+   13. java 内存模型, 虚拟机栈默认大小.
+   14. 说一下高可用架构的常见解决思路
+
+   思考:
+   腾讯一面面试官考察点非常深入,要求你具有归纳能力.例如分布式中常见的负载策略,
+   分布式中数据同步备份的常见方案.线程同步的几种方式等等.
+   而且在你回答之后能继续深入逼问.
+   不像其他面试官抛出来问题,他就听你吹. 你能吹多少,他就认为你会多少.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;思考&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;思考&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%80%9d%e8%80%83&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;手撕算法需要准备,面试之前保证刷够 100 题,及部分设计题.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;无论会不会,一定不能慌.无论会不会,一定要和面试官确认自己的理解是不是正确,这道题应该如何思考? 避免跑偏&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;面试重点在于沟通.&lt;/p&gt;
+&lt;p&gt;3.1 强行总结结论&lt;/p&gt;
+&lt;p&gt;一定要有条理性的和面试官沟通. 避免东一笤帚,西一扫帚.最好提前想好一些结论,重复几遍.这样面试官可能直接用你的&amp;quot;结论&amp;quot;来 写面试经过,结论,评价等. 说完一件事,最好有条理性的结论,让面试官印象深刻. 即使强行 1,2,3的划重点结论也比戛然而止强.&lt;/p&gt;
+&lt;p&gt;3.2 优雅的中断当前问题,只在检查点退出讨论,响应面试官的中断&lt;/p&gt;
+&lt;p&gt;当面试官出现了疑问,抛出了问题,中断你的回答,一定不要一味的回答,立即响应,把握自己的节奏,先面试官征求意见,能否把剩下的说完.继续快速的说完,记得总结结论
+求同存异,避免争论&lt;/p&gt;
+&lt;p&gt;面试官没有你熟悉你的项目,你的经历. 说,听,讨论. 三个阶段都会存在沟通信息的损失. 给面试官讲清楚, 让他理解,认同你可能很难. 但是如果出现争论,会降低对你的好感,降低沟通效率.所以你有责任及时的终止争论.可以使用一下技巧:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  1. 重申 上下文, 目的, 现状, 背景, 利弊抉择.
+  2. 坦诚的承认这块我们的设计,实现并不是完美的.甚至做得不好.我们已经提出了哪些优化点(提出了解决方案).
+  但是优先级并不是很高(优先级是最好的甩锅方式).当初由于更专注于业务目标.技术前瞻性做得不足.你的意见确实一针见血,
+  这个问题让我们头疼了很久.
+  3. &amp;quot;这块确实比较复杂,咱们总结一下,细化一下分歧再讨论&amp;quot; 面试官一般不会拒绝,面试方向主动权重新由你掌握.(要有主动权意识)
+  4. 细化分歧过程中, 其实就是取得共识, 某些细枝末节的争论,直接和面试官解释,忽略掉即可. 把你们的共识摆出来.然后说:
+  &amp;quot;咱们的分歧主要是什么什么,其实是我每说清楚,再针对面试官疑问解释一下,或者甩锅,我们想优化,因为优先级.我们想这么做,
+  但是由于时间来不及,或者当时 XXX,没有这么做.不过后来我们确实吃了亏,算是技术债&amp;quot;.
+  (承认 low 没有问题,强项装逼不服输才是最二百五的)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;面试三千问&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;面试三千问&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e9%9d%a2%e8%af%95%e4%b8%89%e5%8d%83%e9%97%ae&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;简历重要吗? 随便写行不行&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;简历重要吗-随便写行不行&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%ae%80%e5%8e%86%e9%87%8d%e8%a6%81%e5%90%97-%e9%9a%8f%e4%be%bf%e5%86%99%e8%a1%8c%e4%b8%8d%e8%a1%8c&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt; 简历一定要认真写.面试官抛出的问题中,除了常见的高频面试题,就是简历中你写的东西.要保证简历中写的东西,
+ 透彻理解! 无论写的是了解,还是精通都要精通. 否则别写
+ 我认为不用写的
+    1.不熟悉的,仅仅是知晓的.
+    2.在学校整的东西,没啥知名度就不要写了
+    3.github 要有,但是我没有被问过github 中的项目
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;项目经历问吗?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;项目经历问吗&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e9%a1%b9%e7%9b%ae%e7%bb%8f%e5%8e%86%e9%97%ae%e5%90%97&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt; 项目经历一般是 面试必问的,重点问的. 所以第一步要优先发掘自己项目中的亮点, 把自己做的工作清晰的写出来.
+  自我介绍阶段重点介绍应该也是自己的项目经历,这时最好自己提前准备一份演讲稿把自己的项目亮点说出来.
+  多练几遍.避免不过脑子,黄河决堤式回答,想到哪里说哪里.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;常见高频问题呢?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;常见高频问题呢&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%b8%b8%e8%a7%81%e9%ab%98%e9%a2%91%e9%97%ae%e9%a2%98%e5%91%a2&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt; java 锁,线程同步,Juc 包.线程池
+ 内存模型,gc 调优
+ mysql 索引,锁,事务隔离级别.
+ 常见分布式高可用架构 redis, mysql, zk, mq等. 数据同步,数据分片,数据备份等
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;需要刷题吗?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;需要刷题吗&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e9%9c%80%e8%a6%81%e5%88%b7%e9%a2%98%e5%90%97&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt; 阿里一般不会问太多算法题.
+ 但是至少一半以上公司都会手撕算法.  把leetcode 各个类型的题都刷十道以上基本没太大问题. hard题一般不会问.
+ 如果自己面试表现非常好,但是因为算法题被刷掉是不是会很遗憾呢?
+  算法题能扩展一个人的思路,还是有用的.也锻炼一个人编码能力. 个人建议白板算法用 python 非常简洁.更聚焦解题思路
+
+ 如果自己面试表现特别好,职位匹配度非常高. 算法题是可以防水的,会挑简单题问. 目的就是 留下你,怕你答不上来,避免尴尬
+
+ 但是自己面试比较差, 算法题答得特别好,会不会扭转面试结果呢? 基本不会, 手撕算法只是辅助.项目经历和基础面试题是核心.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;面试结果可以问吗?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;面试结果可以问吗&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e9%9d%a2%e8%af%95%e7%bb%93%e6%9e%9c%e5%8f%af%e4%bb%a5%e9%97%ae%e5%90%97&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt; 如果没有面试到 hr,或者 终面面试官没有明确 hr 会联系,我基本都会问. 或者问一下自己的不足. 一般都会告诉自己.
+ 另外, 手撕算法OK,也会被刷掉. 我在陌陌就是 手撕算法非常完美,结果还是挂了.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;一般几轮面试?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;一般几轮面试&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%b8%80%e8%88%ac%e5%87%a0%e8%bd%ae%e9%9d%a2%e8%af%95&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;不算 hr ,基本都是三轮. 但如果二轮面试官开始扯虚的,和你介绍项目,问你职业规划 也许二面就是终面. 不清楚就问一下面试官.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;平时工作划水, 面试临时抱佛脚行不行?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;平时工作划水-面试临时抱佛脚行不行&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%b9%b3%e6%97%b6%e5%b7%a5%e4%bd%9c%e5%88%92%e6%b0%b4-%e9%9d%a2%e8%af%95%e4%b8%b4%e6%97%b6%e6%8a%b1%e4%bd%9b%e8%84%9a%e8%a1%8c%e4%b8%8d%e8%a1%8c&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;不行
+当面试官逼问项目细节时, 如果平时没有对细节特别熟悉,做事马马虎虎,技术深度不够,例如 技术选型为什么这么做,其他方案?优劣势是什么?
+ 如果没有调研,面试时,很快会露出马脚.
+如果对项目的整体架构不熟悉,只熟悉自己的模块,也会可能被面试官问到关联的模块,项目如果自己不熟悉,马上就会支支吾吾.如果你回答,这块
+不是我负责的,我不太熟悉,就会让面试官对你产生 没有大局观,主动意识不够的狐疑.评价时会被评&amp;quot;只能完成自己模块内的工作,对系统的全局
+没有了解,主动意识不强.自我驱动意识差&amp;quot;
+工作时,可能仅仅聚焦业务,对于项目中应用的技术关注不足. 面试时候就会被面试官揪住.如果当时不思考清晰,并且面试前没有意识到这块技术
+风险, 就会给面试带来很大风险.美团面试官曾问我,介绍一个你主要负责的 参与方最多,周期最长,最复杂的一个项目如何推进的? 如果平时工
+作不积极,不主动思考,面试被摊上这么一个问题.基本上哑口无言. (我就目瞪口呆了)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;仅仅看博客,把高频面试题搞懂行不行? (问题驱动式准备面试)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;仅仅看博客把高频面试题搞懂行不行-问题驱动式准备面试&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bb%85%e4%bb%85%e7%9c%8b%e5%8d%9a%e5%ae%a2%e6%8a%8a%e9%ab%98%e9%a2%91%e9%9d%a2%e8%af%95%e9%a2%98%e6%90%9e%e6%87%82%e8%a1%8c%e4%b8%8d%e8%a1%8c-%e9%97%ae%e9%a2%98%e9%a9%b1%e5%8a%a8%e5%bc%8f%e5%87%86%e5%a4%87%e9%9d%a2%e8%af%95&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;这是必须要做的事情.但是仅仅做到这些还远远不够
+例如:
+阿里面试官问:gc 为什么一定要 stop the world? 一般博客没有给出明确清晰直观的原因.
+
+一致性 Hash 如何实现? 手撕一下.为什么叫一致性 hash,一致性体现在哪里? 一般博客没有.
+
+lru 算法手撕一下. 博客有,看一遍就能手撕了?
+
+redis 和 zk 分布式锁实现如何选型? 各自缺点,优势?项目使用时如何避免缺点带来的负面影响?
+
+如何基于 AQS实现获取锁的公平性非公平性?
+
+面试官甚至给你埋坑,故意说一个错误的,看你能否反驳.
+
+我之前被带坑过, 线程池问题
+面试官问:是先到 max size 还是先添加到阻塞队列?
+我说     阻塞队列满了才会继续创建线程到max size
+面试官:  是这样吗? 那么如果是无界队列岂不是永远无法到达 max size
+我心想:  是啊,有道理,我可能记错了.然后被面试官带偏了.
+
+所以结论是,光看懂记下来,不够,要深刻理解.时刻带着问题去学习.问题驱动式学习.
+最后你会发现,
+过了许久,你印象最深刻的还是自己当初提出来的疑问及其解决思路和答案.
+&lt;/code&gt;&lt;/pre&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>http://localhost:1313/posts/markdown-syntax/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/markdown-syntax/</guid>
+      <description>
+        
+        
+        &lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
+&lt;h2&gt;Headings&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;headings&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#headings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
+&lt;h1&gt;H1&lt;/h1&gt;&lt;h2&gt;H2&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;h2&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#h2&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;H3&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;h3&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#h3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;H4&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;h4&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#h4&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h5&gt;H5&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;h5&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#h5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;h6&gt;H6&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;h6&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#h6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h6&gt;&lt;h2&gt;Paragraph&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;paragraph&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#paragraph&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;
+&lt;p&gt;Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p&gt;
+&lt;h2&gt;Blockquotes&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;blockquotes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#blockquotes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code&gt;footer&lt;/code&gt; or &lt;code&gt;cite&lt;/code&gt; element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p&gt;
+&lt;h4&gt;Blockquote without attribution&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;blockquote-without-attribution&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#blockquote-without-attribution&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;
+  &lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;Blockquote with attribution&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;blockquote-with-attribution&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#blockquote-with-attribution&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;
+  &lt;p&gt;Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;br&gt;
+— &lt;cite&gt;Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Tables&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;tables&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#tables&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Name&lt;/th&gt;
+          &lt;th&gt;Age&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Bob&lt;/td&gt;
+          &lt;td&gt;27&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Alice&lt;/td&gt;
+          &lt;td&gt;23&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;Inline Markdown within tables&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;inline-markdown-within-tables&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#inline-markdown-within-tables&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Italics&lt;/th&gt;
+          &lt;th&gt;Bold&lt;/th&gt;
+          &lt;th&gt;Code&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;italics&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Code Blocks&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;code-blocks&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#code-blocks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h4&gt;Code block with backticks&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;code-block-with-backticks&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#code-block-with-backticks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;Code block indented with four spaces&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;code-block-indented-with-four-spaces&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#code-block-indented-with-four-spaces&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
 &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
 &amp;lt;head&amp;gt;
-&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
-&amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
 &amp;lt;/head&amp;gt;
 &amp;lt;body&amp;gt;
-&amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;h4>Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;span class="hx:absolute hx:-mt-20" id="code-block-with-hugos-internal-highlight-shortcode">&lt;/span>
-&lt;a href="#code-block-with-hugos-internal-highlight-shortcode" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&amp;lt;!doctype html&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;utf-8&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Example HTML5 Document&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Test&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
-&lt;h2>List Types&lt;span class="hx:absolute hx:-mt-20" id="list-types">&lt;/span>
-&lt;a href="#list-types" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h4>Ordered List&lt;span class="hx:absolute hx:-mt-20" id="ordered-list">&lt;/span>
-&lt;a href="#ordered-list" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
-&lt;li>First item&lt;/li>
-&lt;li>Second item&lt;/li>
-&lt;li>Third item&lt;/li>
-&lt;/ol>
-&lt;h4>Unordered List&lt;span class="hx:absolute hx:-mt-20" id="unordered-list">&lt;/span>
-&lt;a href="#unordered-list" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
-&lt;li>List item&lt;/li>
-&lt;li>Another item&lt;/li>
-&lt;li>And another item&lt;/li>
-&lt;/ul>
-&lt;h4>Nested list&lt;span class="hx:absolute hx:-mt-20" id="nested-list">&lt;/span>
-&lt;a href="#nested-list" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
-&lt;li>Fruit
-&lt;ul>
-&lt;li>Apple&lt;/li>
-&lt;li>Orange&lt;/li>
-&lt;li>Banana&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Dairy
-&lt;ul>
-&lt;li>Milk&lt;/li>
-&lt;li>Cheese&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2>Other Elements — abbr, sub, sup, kbd, mark&lt;span class="hx:absolute hx:-mt-20" id="other-elements--abbr-sub-sup-kbd-mark">&lt;/span>
-&lt;a href="#other-elements--abbr-sub-sup-kbd-mark" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;abbr title="Graphics Interchange Format">GIF&lt;/abbr> is a bitmap image format.&lt;/p>
-&lt;p>H&lt;sub>2&lt;/sub>O&lt;/p>
-&lt;p>X&lt;sup>n&lt;/sup> + Y&lt;sup>n&lt;/sup> = Z&lt;sup>n&lt;/sup>&lt;/p>
-&lt;p>Press &lt;kbd>&lt;kbd>CTRL&lt;/kbd>+&lt;kbd>ALT&lt;/kbd>+&lt;kbd>Delete&lt;/kbd>&lt;/kbd> to end the session.&lt;/p>
-&lt;p>Most &lt;mark>salamanders&lt;/mark> are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p>
-&lt;div class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1">
-&lt;p>The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a href="https://www.youtube.com/watch?v=PAAkCSZUG1c" target="_blank" rel="noopener">talk&lt;/a> during Gopherfest, November 18, 2015.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/div></description></item></channel></rss>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;code-block-with-hugos-internal-highlight-shortcode&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#code-block-with-hugos-internal-highlight-shortcode&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;List Types&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;list-types&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#list-types&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h4&gt;Ordered List&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;ordered-list&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#ordered-list&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;First item&lt;/li&gt;
+&lt;li&gt;Second item&lt;/li&gt;
+&lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Unordered List&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;unordered-list&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#unordered-list&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;List item&lt;/li&gt;
+&lt;li&gt;Another item&lt;/li&gt;
+&lt;li&gt;And another item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Nested list&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;nested-list&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#nested-list&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Fruit
+&lt;ul&gt;
+&lt;li&gt;Apple&lt;/li&gt;
+&lt;li&gt;Orange&lt;/li&gt;
+&lt;li&gt;Banana&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dairy
+&lt;ul&gt;
+&lt;li&gt;Milk&lt;/li&gt;
+&lt;li&gt;Cheese&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Other Elements — abbr, sub, sup, kbd, mark&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;other-elements--abbr-sub-sup-kbd-mark&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#other-elements--abbr-sub-sup-kbd-mark&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;abbr title=&#34;Graphics Interchange Format&#34;&gt;GIF&lt;/abbr&gt; is a bitmap image format.&lt;/p&gt;
+&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
+&lt;p&gt;X&lt;sup&gt;n&lt;/sup&gt; + Y&lt;sup&gt;n&lt;/sup&gt; = Z&lt;sup&gt;n&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Press &lt;kbd&gt;&lt;kbd&gt;CTRL&lt;/kbd&gt;+&lt;kbd&gt;ALT&lt;/kbd&gt;+&lt;kbd&gt;Delete&lt;/kbd&gt;&lt;/kbd&gt; to end the session.&lt;/p&gt;
+&lt;p&gt;Most &lt;mark&gt;salamanders&lt;/mark&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>
