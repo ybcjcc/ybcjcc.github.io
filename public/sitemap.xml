@@ -2,37 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ybcjcc.github.io/</loc>
+    <loc>https://example.org/</loc>
     <lastmod>2023-10-12T16:17:28+08:00</lastmod>
   </url><url>
-    <loc>https://ybcjcc.github.io/posts/</loc>
+    <loc>https://example.org/posts/</loc>
     <lastmod>2023-10-12T16:17:28+08:00</lastmod>
   </url><url>
-    <loc>https://ybcjcc.github.io/posts/test2/</loc>
+    <loc>https://example.org/posts/test2/</loc>
     <lastmod>2023-10-12T16:17:28+08:00</lastmod>
   </url><url>
-    <loc>https://ybcjcc.github.io/tags/</loc>
+    <loc>https://example.org/tags/</loc>
     <lastmod>2023-10-12T15:41:38+08:00</lastmod>
   </url><url>
-    <loc>https://ybcjcc.github.io/blog/test/</loc>
+    <loc>https://example.org/tags/test/</loc>
     <lastmod>2023-10-12T15:41:38+08:00</lastmod>
   </url><url>
-    <loc>https://ybcjcc.github.io/posts/test1/</loc>
+    <loc>https://example.org/posts/test1/</loc>
     <lastmod>2023-10-12T15:41:38+08:00</lastmod>
   </url><url>
-    <loc>https://ybcjcc.github.io/blog/markdown/</loc>
+    <loc>https://example.org/posts/ok/</loc>
+    <lastmod>2020-11-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/tags/markdown/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ybcjcc.github.io/posts/markdown-syntax/</loc>
+    <loc>https://example.org/posts/markdown-syntax/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ybcjcc.github.io/blog/syntax/</loc>
+    <loc>https://example.org/tags/syntax/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ybcjcc.github.io/bear/</loc>
+    <loc>https://example.org/about/</loc>
   </url><url>
-    <loc>https://ybcjcc.github.io/categories/</loc>
+    <loc>https://example.org/categories/</loc>
   </url><url>
-    <loc>https://ybcjcc.github.io/hugo/</loc>
+    <loc>https://example.org/docs/first-page/</loc>
+  </url><url>
+    <loc>https://example.org/docs/</loc>
+  </url><url>
+    <loc>https://example.org/docs/folder/</loc>
+  </url><url>
+    <loc>https://example.org/docs/folder/leaf/</loc>
   </url>
 </urlset>
