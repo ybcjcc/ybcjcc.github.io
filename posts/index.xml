@@ -1,3 +1,339 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 战魂de小窝</title><link>https://ybcjcc.github.io/posts/</link><description>Recent content in Posts on 战魂de小窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 12 Oct 2023 16:17:28 +0800</lastBuildDate><atom:link href="https://ybcjcc.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Test2</title><link>https://ybcjcc.github.io/posts/test2/</link><pubDate>Thu, 12 Oct 2023 16:17:28 +0800</pubDate><guid>https://ybcjcc.github.io/posts/test2/</guid><description>test2 12312 21312 2323</description></item><item><title>Test1</title><link>https://ybcjcc.github.io/posts/test1/</link><pubDate>Thu, 12 Oct 2023 15:41:38 +0800</pubDate><guid>https://ybcjcc.github.io/posts/test1/</guid><description>21312</description></item><item><title>Markdown Syntax Guide</title><link>https://ybcjcc.github.io/posts/markdown-syntax/</link><pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate><guid>https://ybcjcc.github.io/posts/markdown-syntax/</guid><description>&lt;p>For a quick cheatsheet, check out &lt;a href="https://simplemde.com/markdown-guide">https://simplemde.com/markdown-guide&lt;/a>.&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Site – Posts</title><link>https://example.org/posts/</link><description>Recent content in Posts on My Site</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 12 Oct 2023 16:17:28 +0800</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Test2</title><link>https://example.org/posts/test2/</link><pubDate>Thu, 12 Oct 2023 16:17:28 +0800</pubDate><guid>https://example.org/posts/test2/</guid><description>
+&lt;h1>test2&lt;/h1>&lt;ul>
+&lt;li>12312&lt;/li>
+&lt;li>21312&lt;/li>
+&lt;li>2323&lt;/li>
+&lt;/ul></description></item><item><title>Test1</title><link>https://example.org/posts/test1/</link><pubDate>Thu, 12 Oct 2023 15:41:38 +0800</pubDate><guid>https://example.org/posts/test1/</guid><description>
+&lt;h1>21312&lt;/h1></description></item><item><title>hello</title><link>https://example.org/posts/ok/</link><pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate><guid>https://example.org/posts/ok/</guid><description>
+&lt;h1>欢迎使用 &lt;code>Arya&lt;/code> 在线 Markdown 编辑器&lt;/h1>&lt;p>&lt;a href="https://markdown.lovejade.cn/?ref=markdown.lovejade.cn" target="_blank" rel="noopener">Arya&lt;/a>，是一款基于 &lt;code>Vue&lt;/code>、&lt;code>Vditor&lt;/code>，为未来而构建的在线 Markdown 编辑器；轻量且强大：内置粘贴 HTML 自动转换为 Markdown，支持流程图、甘特图、时序图、任务列表，可导出携带样式的图片、PDF、微信公众号特制的 HTML 等等。&lt;/p>
 &lt;hr>
-&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p></description></item></channel></rss>
+&lt;h2>如何使用&lt;span class="hx:absolute hx:-mt-20" id="如何使用">&lt;/span>
+&lt;a href="#%e5%a6%82%e4%bd%95%e4%bd%bf%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>微注&lt;/strong>：清空目前这份默认文档，即处于可使用态。&lt;a href="https://markdown.lovejade.cn/?ref=markdown.lovejade.cn" target="_blank" rel="noopener">Arya&lt;/a> 另一大优点在于：编辑内容只会在您本地进行保存，不会上传您的数据至服务器，&lt;strong>绝不窥测用户个人隐私，可放心使用&lt;/strong>；Github 源码：&lt;a href="https://github.com/nicejade/markdown-online-editor" target="_blank" rel="noopener">markdown-online-editor&lt;/a>，部分功能仍在开发🚧，敬请期待。&lt;/p>
+&lt;p>默认为&lt;a href="https://hacpai.com/article/1577370404903?ref=github.com" target="_blank" rel="noopener">所见即所得&lt;/a>模式，可通过 &lt;code>⌘-⇧-M&lt;/code>（&lt;code>Ctrl-⇧-M&lt;/code>）进行切换；或通过以下方式：&lt;/p>
+&lt;ul>
+&lt;li>所见即所得：&lt;code>⌘-⌥-7&lt;/code>（&lt;code>Ctrl-alt-7&lt;/code>）；&lt;/li>
+&lt;li>即时渲染：&lt;code>⌘-⌥-8&lt;/code>（&lt;code>Ctrl-alt-8&lt;/code>）；&lt;/li>
+&lt;li>分屏渲染：&lt;code>⌘-⌥-9&lt;/code>（&lt;code>Ctrl-alt-9&lt;/code>）；&lt;/li>
+&lt;/ul>
+&lt;h3>PPT 预览&lt;span class="hx:absolute hx:-mt-20" id="ppt-预览">&lt;/span>
+&lt;a href="#ppt-%e9%a2%84%e8%a7%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>如果您用作 &lt;code>PPT&lt;/code> 预览（入口在&lt;code>设置&lt;/code>中），需要注意，这里暂还不能支持各种图表的渲染；您可以使用 &lt;code>---&lt;/code> 来定义水平方向上幻灯片，用 &lt;code>--&lt;/code> 来定义垂直幻灯片；更多设定可以参见 &lt;a href="https://github.com/hakimel/reveal.js#table-of-contents" target="_blank" rel="noopener">RevealJs 文档&lt;/a>。&lt;/p>
+&lt;hr>
+&lt;h2>什么是 Markdown&lt;span class="hx:absolute hx:-mt-20" id="什么是-markdown">&lt;/span>
+&lt;a href="#%e4%bb%80%e4%b9%88%e6%98%af-markdown" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;code>Markdown&lt;/code> 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号，以最小的输入代价，生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，&lt;strong>粗体&lt;/strong>、&lt;em>斜体&lt;/em> 或者&lt;a href="https://vue-cli3.lovejade.cn/explore/" target="_blank" rel="noopener">超文本链接&lt;/a>，更棒的是，它还可以：&lt;/p>
+&lt;hr>
+&lt;h3>1. 制作待办事宜 &lt;code>Todo&lt;/code> 列表&lt;span class="hx:absolute hx:-mt-20" id="1-制作待办事宜-todo-列表">&lt;/span>
+&lt;a href="#1-%e5%88%b6%e4%bd%9c%e5%be%85%e5%8a%9e%e4%ba%8b%e5%ae%9c-todo-%e5%88%97%e8%a1%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 🎉 通常 &lt;code>Markdown&lt;/code> 解析器自带的基本功能；&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 🍀 支持&lt;strong>流程图&lt;/strong>、&lt;strong>甘特图&lt;/strong>、&lt;strong>时序图&lt;/strong>、&lt;strong>任务列表&lt;/strong>；&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 🏁 支持粘贴 HTML 自动转换为 Markdown；&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 💃🏻 支持插入原生 Emoji、设置常用表情列表；&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 🚑 支持编辑内容保存&lt;strong>本地存储&lt;/strong>，防止意外丢失；&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 📝 支持&lt;strong>实时预览&lt;/strong>，主窗口大小拖拽，字符计数；&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 🛠 支持常用快捷键(&lt;strong>Tab&lt;/strong>)，及代码块添加复制&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> ✨ 支持&lt;strong>导出&lt;/strong>携带样式的 PDF、PNG、JPEG 等；&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> ✨ 升级 Vditor，新增对 &lt;code>echarts&lt;/code> 图表的支持；&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 👏 支持检查并格式化 Markdown 语法，使其专业；&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 🦑 支持五线谱、及&lt;a href="https://github.com/b3log/vditor/issues/117?ref=hacpai.com#issuecomment-526986052" target="_blank" rel="noopener">部分站点、视频、音频解析&lt;/a>；&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 🌟 增加对&lt;strong>所见即所得&lt;/strong>编辑模式的支持(&lt;code>⌘-⇧-M&lt;/code>)；&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>2. 书写一个质能守恒公式[^LaTeX]&lt;span class="hx:absolute hx:-mt-20" id="2-书写一个质能守恒公式latex">&lt;/span>
+&lt;a href="#2-%e4%b9%a6%e5%86%99%e4%b8%80%e4%b8%aa%e8%b4%a8%e8%83%bd%e5%ae%88%e6%81%92%e5%85%ac%e5%bc%8flatex" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>$$
+E=mc^2
+$$&lt;/p>
+&lt;hr>
+&lt;h3>3. 高亮一段代码[^code]&lt;span class="hx:absolute hx:-mt-20" id="3-高亮一段代码code">&lt;/span>
+&lt;a href="#3-%e9%ab%98%e4%ba%ae%e4%b8%80%e6%ae%b5%e4%bb%a3%e7%a0%81code" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 给页面里所有的 DOM 元素添加一个 1px 的描边（outline）;
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">[].&lt;/span>&lt;span class="nx">forEach&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">call&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">$$&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;*&amp;#34;&lt;/span>&lt;span class="p">),&lt;/span>&lt;span class="kd">function&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">a&lt;/span>&lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">a&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">style&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">outline&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;1px solid #&amp;#34;&lt;/span>&lt;span class="o">+&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">~~&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nb">Math&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">random&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="o">&amp;lt;&amp;lt;&lt;/span>&lt;span class="mi">24&lt;/span>&lt;span class="p">))).&lt;/span>&lt;span class="nx">toString&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">16&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">})&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h3>4. 高效绘制&lt;a href="https://github.com/knsv/mermaid#flowchart" target="_blank" rel="noopener">流程图&lt;/a>&lt;span class="hx:absolute hx:-mt-20" id="4-高效绘制流程图">&lt;/span>
+&lt;a href="#4-%e9%ab%98%e6%95%88%e7%bb%98%e5%88%b6%e6%b5%81%e7%a8%8b%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;pre class="mermaid hx:mt-6">
+graph TD;
+A--&amp;gt;B;
+A--&amp;gt;C;
+B--&amp;gt;D;
+C--&amp;gt;D;
+&lt;/pre>&lt;h3>5. 高效绘制&lt;a href="https://github.com/knsv/mermaid#sequence-diagram" target="_blank" rel="noopener">序列图&lt;/a>&lt;span class="hx:absolute hx:-mt-20" id="5-高效绘制序列图">&lt;/span>
+&lt;a href="#5-%e9%ab%98%e6%95%88%e7%bb%98%e5%88%b6%e5%ba%8f%e5%88%97%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;pre class="mermaid hx:mt-6">
+sequenceDiagram
+participant Alice
+participant Bob
+Alice-&amp;gt;John: Hello John, how are you?
+loop Healthcheck
+John-&amp;gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail...
+John--&amp;gt;Alice: Great!
+John-&amp;gt;Bob: How about you?
+Bob--&amp;gt;John: Jolly good!
+&lt;/pre>&lt;h3>6. 高效绘制&lt;a href="https://github.com/knsv/mermaid#gantt-diagram" target="_blank" rel="noopener">甘特图&lt;/a>&lt;span class="hx:absolute hx:-mt-20" id="6-高效绘制甘特图">&lt;/span>
+&lt;a href="#6-%e9%ab%98%e6%95%88%e7%bb%98%e5%88%b6%e7%94%98%e7%89%b9%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;blockquote>
+&lt;p>&lt;strong>甘特图&lt;/strong>内在思想简单。基本是一条线条图，横轴表示时间，纵轴表示活动（项目），线条表示在整个期间上计划和实际的活动完成情况。它直观地表明任务计划在什么时候进行，及实际进展与计划要求的对比。&lt;/p>
+&lt;/blockquote>
+&lt;pre class="mermaid hx:mt-6">
+gantt
+title 项目开发流程
+section 项目确定
+需求分析 :a1, 2019-06-22, 3d
+可行性报告 :after a1, 5d
+概念验证 : 5d
+section 项目实施
+概要设计 :2019-07-05 , 5d
+详细设计 :2019-07-08, 10d
+编码 :2019-07-15, 10d
+测试 :2019-07-22, 5d
+section 发布验收
+发布: 2d
+验收: 3d
+&lt;/pre>&lt;h3>7. 支持图表&lt;span class="hx:absolute hx:-mt-20" id="7-支持图表">&lt;/span>
+&lt;a href="#7-%e6%94%af%e6%8c%81%e5%9b%be%e8%a1%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>{
+&amp;#34;backgroundColor&amp;#34;: &amp;#34;#212121&amp;#34;,
+&amp;#34;title&amp;#34;: {
+&amp;#34;text&amp;#34;: &amp;#34;「晚晴幽草轩」访问来源&amp;#34;,
+&amp;#34;subtext&amp;#34;: &amp;#34;2019 年 6 月份&amp;#34;,
+&amp;#34;x&amp;#34;: &amp;#34;center&amp;#34;,
+&amp;#34;textStyle&amp;#34;: {
+&amp;#34;color&amp;#34;: &amp;#34;#f2f2f2&amp;#34;
+}
+},
+&amp;#34;tooltip&amp;#34;: {
+&amp;#34;trigger&amp;#34;: &amp;#34;item&amp;#34;,
+&amp;#34;formatter&amp;#34;: &amp;#34;{a} &amp;lt;br/&amp;gt;{b} : {c} ({d}%)&amp;#34;
+},
+&amp;#34;legend&amp;#34;: {
+&amp;#34;orient&amp;#34;: &amp;#34;vertical&amp;#34;,
+&amp;#34;left&amp;#34;: &amp;#34;left&amp;#34;,
+&amp;#34;data&amp;#34;: [
+&amp;#34;搜索引擎&amp;#34;,
+&amp;#34;直接访问&amp;#34;,
+&amp;#34;推荐&amp;#34;,
+&amp;#34;其他&amp;#34;,
+&amp;#34;社交平台&amp;#34;
+],
+&amp;#34;textStyle&amp;#34;: {
+&amp;#34;color&amp;#34;: &amp;#34;#f2f2f2&amp;#34;
+}
+},
+&amp;#34;series&amp;#34;: [
+{
+&amp;#34;name&amp;#34;: &amp;#34;访问来源&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;pie&amp;#34;,
+&amp;#34;radius&amp;#34;: &amp;#34;55%&amp;#34;,
+&amp;#34;center&amp;#34;: [
+&amp;#34;50%&amp;#34;,
+&amp;#34;60%&amp;#34;
+],
+&amp;#34;data&amp;#34;: [
+{
+&amp;#34;value&amp;#34;: 10440,
+&amp;#34;name&amp;#34;: &amp;#34;搜索引擎&amp;#34;,
+&amp;#34;itemStyle&amp;#34;: {
+&amp;#34;color&amp;#34;: &amp;#34;#ef4136&amp;#34;
+}
+},
+{
+&amp;#34;value&amp;#34;: 4770,
+&amp;#34;name&amp;#34;: &amp;#34;直接访问&amp;#34;
+},
+{
+&amp;#34;value&amp;#34;: 2430,
+&amp;#34;name&amp;#34;: &amp;#34;推荐&amp;#34;
+},
+{
+&amp;#34;value&amp;#34;: 342,
+&amp;#34;name&amp;#34;: &amp;#34;其他&amp;#34;
+},
+{
+&amp;#34;value&amp;#34;: 18,
+&amp;#34;name&amp;#34;: &amp;#34;社交平台&amp;#34;
+}
+],
+&amp;#34;itemStyle&amp;#34;: {
+&amp;#34;emphasis&amp;#34;: {
+&amp;#34;shadowBlur&amp;#34;: 10,
+&amp;#34;shadowOffsetX&amp;#34;: 0,
+&amp;#34;shadowColor&amp;#34;: &amp;#34;rgba(0, 0, 0, 0.5)&amp;#34;
+}
+}
+}
+]
+}&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;blockquote>
+&lt;p>&lt;strong>备注&lt;/strong>：上述 echarts 图表📈，其数据，须使用严格的 &lt;strong>JSON&lt;/strong> 格式；您可使用 JSON.stringify(data)，将对象传换从而得标准数据，即可正常使用。&lt;/p>
+&lt;/blockquote>
+&lt;h3>8. 绘制表格&lt;span class="hx:absolute hx:-mt-20" id="8-绘制表格">&lt;/span>
+&lt;a href="#8-%e7%bb%98%e5%88%b6%e8%a1%a8%e6%a0%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h3>9. 更详细语法说明&lt;span class="hx:absolute hx:-mt-20" id="9-更详细语法说明">&lt;/span>
+&lt;a href="#9-%e6%9b%b4%e8%af%a6%e7%bb%86%e8%af%ad%e6%b3%95%e8%af%b4%e6%98%8e" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>想要查看更详细的语法说明，可以参考这份 &lt;a href="https://github.com/nicejade/nice-front-end-tutorial/blob/master/tutorial/markdown-tutorial.md" target="_blank" rel="noopener">Markdown 资源列表&lt;/a>，涵盖入门至进阶教程，以及资源、平台等信息，能让您对她有更深的认知。&lt;/p>
+&lt;p>总而言之，不同于其它&lt;em>所见即所得&lt;/em>的编辑器：你只需使用键盘专注于书写文本内容，就可以生成印刷级的排版格式，省却在键盘和工具栏之间来回切换，调整内容和格式的麻烦。&lt;strong>Markdown 在流畅的书写和印刷级的阅读体验之间找到了平衡。&lt;/strong> 目前它已经成为世界上最大的技术分享网站 &lt;code>GitHub&lt;/code> 和 技术问答网站 &lt;code>StackOverFlow&lt;/code> 的御用书写格式，而且越发流行，正在在向各行业渗透。&lt;/p>
+&lt;p>最新更新于 2019.08.21&lt;/p></description></item><item><title>Markdown Syntax Guide</title><link>https://example.org/posts/markdown-syntax/</link><pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate><guid>https://example.org/posts/markdown-syntax/</guid><description>
+&lt;p>For a quick cheatsheet, check out &lt;a href="https://simplemde.com/markdown-guide" target="_blank" rel="noopener">https://simplemde.com/markdown-guide&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p>
+&lt;h2>Headings&lt;span class="hx:absolute hx:-mt-20" id="headings">&lt;/span>
+&lt;a href="#headings" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The following HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> elements represent six levels of section headings. &lt;code>&amp;lt;h1&amp;gt;&lt;/code> is the highest section level while &lt;code>&amp;lt;h6&amp;gt;&lt;/code> is the lowest.&lt;/p>
+&lt;h1>H1&lt;/h1>&lt;h2>H2&lt;span class="hx:absolute hx:-mt-20" id="h2">&lt;/span>
+&lt;a href="#h2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>H3&lt;span class="hx:absolute hx:-mt-20" id="h3">&lt;/span>
+&lt;a href="#h3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>H4&lt;span class="hx:absolute hx:-mt-20" id="h4">&lt;/span>
+&lt;a href="#h4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;h5>H5&lt;span class="hx:absolute hx:-mt-20" id="h5">&lt;/span>
+&lt;a href="#h5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;h6>H6&lt;span class="hx:absolute hx:-mt-20" id="h6">&lt;/span>
+&lt;a href="#h6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;h2>Paragraph&lt;span class="hx:absolute hx:-mt-20" id="paragraph">&lt;/span>
+&lt;a href="#paragraph" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p>
+&lt;p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p>
+&lt;h2>Blockquotes&lt;span class="hx:absolute hx:-mt-20" id="blockquotes">&lt;/span>
+&lt;a href="#blockquotes" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code>footer&lt;/code> or &lt;code>cite&lt;/code> element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p>
+&lt;h4>Blockquote without attribution&lt;span class="hx:absolute hx:-mt-20" id="blockquote-without-attribution">&lt;/span>
+&lt;a href="#blockquote-without-attribution" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;blockquote>
+&lt;p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong>Note&lt;/strong> that you can use &lt;em>Markdown syntax&lt;/em> within a blockquote.&lt;/p>
+&lt;/blockquote>
+&lt;h4>Blockquote with attribution&lt;span class="hx:absolute hx:-mt-20" id="blockquote-with-attribution">&lt;/span>
+&lt;a href="#blockquote-with-attribution" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;blockquote>
+&lt;p>Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;br>
+— &lt;cite>Rob Pike&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/cite>&lt;/p>
+&lt;/blockquote>
+&lt;h2>Tables&lt;span class="hx:absolute hx:-mt-20" id="tables">&lt;/span>
+&lt;a href="#tables" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Age&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Bob&lt;/td>
+&lt;td>27&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Alice&lt;/td>
+&lt;td>23&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4>Inline Markdown within tables&lt;span class="hx:absolute hx:-mt-20" id="inline-markdown-within-tables">&lt;/span>
+&lt;a href="#inline-markdown-within-tables" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Italics&lt;/th>
+&lt;th>Bold&lt;/th>
+&lt;th>Code&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;em>italics&lt;/em>&lt;/td>
+&lt;td>&lt;strong>bold&lt;/strong>&lt;/td>
+&lt;td>&lt;code>code&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>Code Blocks&lt;span class="hx:absolute hx:-mt-20" id="code-blocks">&lt;/span>
+&lt;a href="#code-blocks" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h4>Code block with backticks&lt;span class="hx:absolute hx:-mt-20" id="code-block-with-backticks">&lt;/span>
+&lt;a href="#code-block-with-backticks" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&amp;lt;!doctype html&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;utf-8&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Example HTML5 Document&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Test&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h4>Code block indented with four spaces&lt;span class="hx:absolute hx:-mt-20" id="code-block-indented-with-four-spaces">&lt;/span>
+&lt;a href="#code-block-indented-with-four-spaces" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;pre>&lt;code>&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+&amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;h4>Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;span class="hx:absolute hx:-mt-20" id="code-block-with-hugos-internal-highlight-shortcode">&lt;/span>
+&lt;a href="#code-block-with-hugos-internal-highlight-shortcode" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&amp;lt;!doctype html&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;utf-8&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Example HTML5 Document&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Test&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h2>List Types&lt;span class="hx:absolute hx:-mt-20" id="list-types">&lt;/span>
+&lt;a href="#list-types" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h4>Ordered List&lt;span class="hx:absolute hx:-mt-20" id="ordered-list">&lt;/span>
+&lt;a href="#ordered-list" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
+&lt;li>First item&lt;/li>
+&lt;li>Second item&lt;/li>
+&lt;li>Third item&lt;/li>
+&lt;/ol>
+&lt;h4>Unordered List&lt;span class="hx:absolute hx:-mt-20" id="unordered-list">&lt;/span>
+&lt;a href="#unordered-list" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>List item&lt;/li>
+&lt;li>Another item&lt;/li>
+&lt;li>And another item&lt;/li>
+&lt;/ul>
+&lt;h4>Nested list&lt;span class="hx:absolute hx:-mt-20" id="nested-list">&lt;/span>
+&lt;a href="#nested-list" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>Fruit
+&lt;ul>
+&lt;li>Apple&lt;/li>
+&lt;li>Orange&lt;/li>
+&lt;li>Banana&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Dairy
+&lt;ul>
+&lt;li>Milk&lt;/li>
+&lt;li>Cheese&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2>Other Elements — abbr, sub, sup, kbd, mark&lt;span class="hx:absolute hx:-mt-20" id="other-elements--abbr-sub-sup-kbd-mark">&lt;/span>
+&lt;a href="#other-elements--abbr-sub-sup-kbd-mark" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;abbr title="Graphics Interchange Format">GIF&lt;/abbr> is a bitmap image format.&lt;/p>
+&lt;p>H&lt;sub>2&lt;/sub>O&lt;/p>
+&lt;p>X&lt;sup>n&lt;/sup> + Y&lt;sup>n&lt;/sup> = Z&lt;sup>n&lt;/sup>&lt;/p>
+&lt;p>Press &lt;kbd>&lt;kbd>CTRL&lt;/kbd>+&lt;kbd>ALT&lt;/kbd>+&lt;kbd>Delete&lt;/kbd>&lt;/kbd> to end the session.&lt;/p>
+&lt;p>Most &lt;mark>salamanders&lt;/mark> are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a href="https://www.youtube.com/watch?v=PAAkCSZUG1c" target="_blank" rel="noopener">talk&lt;/a> during Gopherfest, November 18, 2015.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>
