@@ -1,6 +1,9 @@
 +++
 title = "hello"
 date = "2020-11-11"
+tags = [
+  "tag1", "tag2"
+]
 +++
 
 
